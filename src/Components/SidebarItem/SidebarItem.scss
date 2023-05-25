@@ -1,0 +1,25 @@
+.SidebarItem {
+    height: 220px;
+    width: 80%;
+    background: no-repeat center / cover url('../../../public/img/burger.jpg');
+    border-radius: 20px;
+    transform: scale(1);
+    cursor: pointer;
+    transition: transform .3s ease;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+
+    &__wrap {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        color: #fff;
+
+        h3 {
+            font-size: 24px;
+            font-weight: 500;
+        }
+    }
+}

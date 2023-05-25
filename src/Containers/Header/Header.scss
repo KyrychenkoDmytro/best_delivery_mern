@@ -1,14 +1,8 @@
 @import '../../scss/variables';
 
 .Header {
-    position: sticky;
-    top: 0;
-    left: 0;
-    z-index: 10;
     padding: 0;
     background-color: $lightGray;
-    transform: scale(1);
-    transition: transform .4s ease;
 
     &__wrap {
         max-width: 1680px;
