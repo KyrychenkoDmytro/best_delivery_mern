@@ -1,15 +1,13 @@
 @import '../../scss/variables';
 
 .Sidebar {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr;
     gap: 30px;
-    padding: 40px 20px;
-    min-height: 600px;
-    height: 100%;
+    padding: 30px 20px;
+    height: calc(100vh - 160px);
     background-color: #fff;
     box-shadow: 0px 3px 14px 3px rgba(0, 0, 0, 0.4);
     border-radius: 30px;
-
+    overflow: auto;
 }

@@ -7,6 +7,8 @@ const Sidebar = () => {
         <section className="Sidebar">
             <SidebarItem />
             <SidebarItem />
+            <SidebarItem />
+            <SidebarItem />
         </section>
     );
 }

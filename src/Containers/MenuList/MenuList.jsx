@@ -11,6 +11,8 @@ const MenuList = () => {
                 <MenuListItem />
                 <MenuListItem />
                 <MenuListItem />
+                <MenuListItem />
+                <MenuListItem />
             </div>
         </section>
     );
