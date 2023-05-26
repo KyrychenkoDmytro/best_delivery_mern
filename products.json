@@ -1,0 +1,135 @@
+{
+    "burger": [
+        {
+            "category": "New",
+            "imageUrl": "https://i.postimg.cc/dVTG58q9/classic-burger.jpg",
+            "name": "Classic Burger",
+            "price": 100,
+            "rank": 4
+        },
+        {
+            "category": "Hot",
+            "imageUrl": "https://i.postimg.cc/sDLpPnRX/black-burger.jpg",
+            "name": "Black Burger",
+            "price": 120,
+            "rank": 5
+        },
+        {
+            "category": "Discount",
+            "imageUrl": "https://i.postimg.cc/hjKx46VC/big-burger.jpg",
+            "name": "Big Burger",
+            "price": 180,
+            "discount": 0.1,
+            "rank": 5
+        },
+        {
+            "category": "Discount",
+            "imageUrl": "https://i.postimg.cc/BvTH04PL/dubl-burger.jpg",
+            "name": "Red Tomato",
+            "price": 260,
+            "discount": 0.2,
+            "rank": 3
+        },
+        {
+            "category": "New",
+            "imageUrl": "https://i.postimg.cc/tTD6sk59/cheeseburger.jpg",
+            "name": "Cheeseburger",
+            "price": 28,
+            "rank": 4
+        }
+    ],
+    "pizza": [
+        {
+            "category": "New",
+            "imageUrl": "https://i.postimg.cc/Cx7HBb4M/barbecue-chichen.jpg",
+            "name": "Barbecue chichen",
+            "price": 140,
+            "rank": 5
+        },
+        {
+            "category": "Hot",
+            "imageUrl": "https://i.postimg.cc/PJDQPcS0/pepperoni.jpg",
+            "name": "Pepperoni",
+            "price": 160,
+            "rank": 5
+        },
+        {
+            "category": "Discount",
+            "imageUrl": "https://i.postimg.cc/VLjFwxrC/cheese-pizza.jpg",
+            "name": "Cheese",
+            "price": 180,
+            "discount": 0.2,
+            "rank": 4
+        },
+        {
+            "category": "Discount",
+            "imageUrl": "https://i.postimg.cc/6ptfpMn1/four-seasons.jpg",
+            "name": "Four Seasons",
+            "price": 200,
+            "discount": 0.1,
+            "rank": 3
+        },
+        {
+            "category": "New",
+            "imageUrl": "https://i.postimg.cc/02gCLkQv/cheeseburger-pizza.jpg",
+            "name": "Cheeseburger",
+            "price": 140,
+            "rank": 4
+        }
+    ],
+    "vegetables": [
+        {
+            "category": "Discount",
+            "imageUrl": "https://i.postimg.cc/t4m07ZjW/broccoli.png",
+            "name": "Calabrese Broccoli",
+            "price": 40,
+            "discount": 0.3,
+            "rank": 5
+        },
+        {
+            "category": "Hot",
+            "imageUrl": "https://i.postimg.cc/1R0LwYS9/red-tomato.png",
+            "name": "Red Tomato",
+            "price": 60,
+            "rank": 4
+        },
+        {
+            "category": "Discount",
+            "imageUrl": "https://i.postimg.cc/bJk46m29/fresh-corn.png",
+            "name": "Corn",
+            "price": 30,
+            "discount": 0.2,
+            "rank": 3
+        },
+        {
+            "category": "New",
+            "imageUrl": "https://i.postimg.cc/sDmCdHHn/cauliflower.png",
+            "name": "Cauliflower",
+            "price": 60,
+            "rank": 4
+        },
+        {
+            "category": "Hot",
+            "imageUrl": "https://i.postimg.cc/wT0Zby3Z/vegetable-marrow.png",
+            "name": "Vegettable marrow",
+            "price": 26,
+            "rank": 5
+        },
+        {
+            "category": "Discount",
+            "imageUrl": "https://i.postimg.cc/5yqdts42/cabbage.png",
+            "name": "Cabbage",
+            "price": 44,
+            "discount": 0.1,
+            "rank": 4
+        },
+        {
+            "category": "Discount",
+            "imageUrl": "https://i.postimg.cc/2yxMY3Gq/onion.png",
+            "name": "Onion",
+            "price": 22,
+            "discount": 0.1,
+            "rank": 3
+        }
+    ]
+}
