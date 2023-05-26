@@ -1,19 +1,19 @@
 import './CartOrders.scss';
 import CartItem from '../../Components/CartItem/CartItem';
+import { useSelector } from 'react-redux';
 
 const CartOrders = () => {
+    const { allProducts } = useSelector(state => state.cart);
+
     return (
         <div className="CartOrders">
             <div className="CartOrders__wrap">
-                <CartItem />
-                <CartItem />
-                <CartItem />
-                <CartItem />
-                <CartItem />
-            </div>
-            <div className="CartOrders__total">
-                <div className="title CartOrder__total-cost">Total Cost <span>12$</span></div>
-                <div className="title CartOrder__total-discont">Discount <span>12$</span></div>
+                {allProducts.map((item) => (
+                    <CartItem
+                        key={item._id}
+                        {...item}
+                    />
+                ))}
             </div>
         </div>
     );

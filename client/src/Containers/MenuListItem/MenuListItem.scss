@@ -16,13 +16,13 @@
 
     &__name {
         padding: 6px 12px;
+        margin-bottom: 20px;
         border-radius: 8px;
         background-color: $darkSlateGray;
         color: #fff;
         font-size: 15px;
         line-height: 21px;
         font-weight: 600;
-        margin-bottom: auto;
         transform: scale(1);
         transition: all .3s ease;
     }
@@ -36,9 +36,8 @@
 
     &__img {
         width: 100%;
-        height: 300px;
+        height: 360px;
         border-radius: 20px;
-        background: no-repeat center center / cover url('../../../public/img/burger-classic.jpg');
         background-blend-mode: multiply;
     }
 

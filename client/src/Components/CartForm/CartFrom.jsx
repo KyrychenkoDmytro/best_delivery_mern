@@ -1,6 +1,9 @@
 import './CartForm.scss';
+import { useSelector } from 'react-redux';
 
 const CartForm = () => {
+    const { totalCost, discount } = useSelector(state => state.cart);
+
     return (
         <div className="CartForm">
             <div className="CartForm__wrap">
@@ -45,6 +48,10 @@ const CartForm = () => {
                     </div>
                     <button className="btn btn_pagination-grey CartForm__btn-confirm">Submit</button>
                 </form>
+            </div>
+            <div className="CartForm__total">
+                <div className="title CartForm__total-cost">Total Cost <span>{totalCost}₴</span></div>
+                <div className="title CartForm__total-discont">Discount <span>{discount}₴</span></div>
             </div>
         </div>
     );

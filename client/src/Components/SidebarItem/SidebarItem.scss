@@ -2,24 +2,29 @@
     height: 220px;
     width: 80%;
     margin: 0 auto;
-    background: no-repeat center / cover url('../../../public/img/burger.jpg');
-    border-radius: 20px;
+    border-radius: 30px;
     transform: scale(1);
     cursor: pointer;
-    transition: transform .3s ease;
+    transition: all .3s ease;
+    color: #fff;
+
+    &.active {
+        transform: scale(1.1);
+        color: gold;
+    }
 
     &:hover {
         transform: scale(1.1);
+        color: gold;
     }
 
     &__wrap {
         display: flex;
         justify-content: center;
         padding: 20px;
-        color: #fff;
 
         h3 {
-            font-size: 24px;
+            font-size: 28px;
             font-weight: 500;
         }
     }

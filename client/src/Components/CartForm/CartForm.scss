@@ -50,11 +50,21 @@
     &__btn-confirm {
         margin-left: auto;
         width: max-content;
-        margin-top: 40px;
+        margin-top: 20px;
         transition: background-color .3s ease;
 
         &:focus {
             background-color: $khaki;
         }
+    }
+
+    &__total {
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+        font-size: 32px;
+        font-weight: 700;
     }
 }

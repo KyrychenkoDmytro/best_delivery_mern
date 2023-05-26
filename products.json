@@ -5,14 +5,16 @@
             "imageUrl": "https://i.postimg.cc/dVTG58q9/classic-burger.jpg",
             "name": "Classic Burger",
             "price": 100,
-            "rank": 4
+            "rank": 4,
+            "id":"bur1"
         },
         {
             "category": "Hot",
             "imageUrl": "https://i.postimg.cc/sDLpPnRX/black-burger.jpg",
             "name": "Black Burger",
             "price": 120,
-            "rank": 5
+            "rank": 5,
+            "id":"bur2"
         },
         {
             "category": "Discount",
@@ -20,7 +22,8 @@
             "name": "Big Burger",
             "price": 180,
             "discount": 0.1,
-            "rank": 5
+            "rank": 5,
+            "id":"bur3"
         },
         {
             "category": "Discount",
@@ -28,14 +31,16 @@
             "name": "Red Tomato",
             "price": 260,
             "discount": 0.2,
-            "rank": 3
+            "rank": 3,
+            "id":"bur4"
         },
         {
             "category": "New",
             "imageUrl": "https://i.postimg.cc/tTD6sk59/cheeseburger.jpg",
             "name": "Cheeseburger",
-            "price": 28,
-            "rank": 4
+            "price": 280,
+            "rank": 4,
+            "id":"bur5"
         }
     ],
     "pizza": [
@@ -44,14 +49,16 @@
             "imageUrl": "https://i.postimg.cc/Cx7HBb4M/barbecue-chichen.jpg",
             "name": "Barbecue chichen",
             "price": 140,
-            "rank": 5
+            "rank": 5,
+            "id":"piz1"
         },
         {
             "category": "Hot",
             "imageUrl": "https://i.postimg.cc/PJDQPcS0/pepperoni.jpg",
             "name": "Pepperoni",
             "price": 160,
-            "rank": 5
+            "rank": 5,
+            "id":"piz2"
         },
         {
             "category": "Discount",
@@ -59,7 +66,8 @@
             "name": "Cheese",
             "price": 180,
             "discount": 0.2,
-            "rank": 4
+            "rank": 4,
+            "id":"piz3"
         },
         {
             "category": "Discount",
@@ -67,31 +75,35 @@
             "name": "Four Seasons",
             "price": 200,
             "discount": 0.1,
-            "rank": 3
+            "rank": 3,
+            "id":"piz4"
         },
         {
             "category": "New",
             "imageUrl": "https://i.postimg.cc/02gCLkQv/cheeseburger-pizza.jpg",
             "name": "Cheeseburger",
             "price": 140,
-            "rank": 4
+            "rank": 4,
+            "id":"piz5"
         }
     ],
-    "vegetables": [
+    "vegetable": [
         {
             "category": "Discount",
             "imageUrl": "https://i.postimg.cc/t4m07ZjW/broccoli.png",
             "name": "Calabrese Broccoli",
             "price": 40,
             "discount": 0.3,
-            "rank": 5
+            "rank": 5,
+            "id":"veg1"
         },
         {
             "category": "Hot",
             "imageUrl": "https://i.postimg.cc/1R0LwYS9/red-tomato.png",
             "name": "Red Tomato",
             "price": 60,
-            "rank": 4
+            "rank": 4,
+            "id":"veg2"
         },
         {
             "category": "Discount",
@@ -99,21 +111,24 @@
             "name": "Corn",
             "price": 30,
             "discount": 0.2,
-            "rank": 3
+            "rank": 3,
+            "id":"veg3"
         },
         {
             "category": "New",
             "imageUrl": "https://i.postimg.cc/sDmCdHHn/cauliflower.png",
             "name": "Cauliflower",
             "price": 60,
-            "rank": 4
+            "rank": 4,
+            "id":"veg4"
         },
         {
             "category": "Hot",
             "imageUrl": "https://i.postimg.cc/wT0Zby3Z/vegetable-marrow.png",
             "name": "Vegettable marrow",
             "price": 26,
-            "rank": 5
+            "rank": 5,
+            "id":"veg5"
         },
         {
             "category": "Discount",
@@ -121,7 +136,8 @@
             "name": "Cabbage",
             "price": 44,
             "discount": 0.1,
-            "rank": 4
+            "rank": 4,
+            "id":"veg6"
         },
         {
             "category": "Discount",
@@ -129,7 +145,8 @@
             "name": "Onion",
             "price": 22,
             "discount": 0.1,
-            "rank": 3
+            "rank": 3,
+            "id":"veg7"
         }
     ]
 }

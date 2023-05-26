@@ -13,26 +13,29 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-app.get('/products', async (req, res) => {
-
+app.get('/products/:category', async (req, res) => {
+    const { category } = req.params;
+  
     try {
-        const products = await ProductModel.find().sort({ discount: -1 });
-
-        if (!products) {
-            return res.status(404).json({
-                message: 'Error! Products not found.'
-            })
-        }
-
-        res.json(products);
-
+      const products = await ProductModel.find();
+  
+      if (!products) {
+        return res.status(404).json({
+          message: 'Error! Products not found.'
+        });
+      }
+  
+      const { [category]: selectedCategory, ...otherProducts } = products[0]._doc;
+  
+      res.json(selectedCategory);
+      
     } catch (err) {
-        console.log(err);
-        res.status(500).json({
-            message: 'Connection error.'
-        })
+      console.log(err);
+      res.status(500).json({
+        message: 'Connection error.'
+      });
     }
-});
+  });
 
 app.post('/orders', async (req, res) => {
     try {

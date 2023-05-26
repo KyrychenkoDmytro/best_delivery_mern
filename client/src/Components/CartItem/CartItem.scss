@@ -17,12 +17,17 @@
     &__name {
         flex: 0 0 320px;
         height: 220px;
+        padding: 20px;
+        text-align: center;
+        font-size: 24px;
+        font-weight: 500;
         border-radius: 20px;
-        background: no-repeat center center / cover url('../../../public/img/dubl-burger.jpg');
+        color: gold;
     }
 
     &__wrapper-price {
         display: flex;
+        flex-direction: column;
         align-items: center;
         gap: 10px;
     }
@@ -59,9 +64,9 @@
 
     &__quantity-wrapper-input {
         position: relative;
-        min-width: 134px;
+        min-width: 80px;
         height: 60px;
-        border-radius: 16px;
+        border-radius: 40px;
         background-color: #fff;
         border: 2px solid $darkSlateGray;
         overflow: hidden;
@@ -87,9 +92,9 @@
     }
 
     &__btn-cancel-order {
-        width: 64px;
+        width: 46px;
         height: 46px;
-        border-radius: 16px;
+        border-radius: 50%;
         background-color: $darkSlateGray;
         cursor: pointer;
         transform: scale(1);
