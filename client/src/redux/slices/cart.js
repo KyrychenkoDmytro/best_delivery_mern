@@ -73,10 +73,17 @@ const cartSlice = createSlice({
             state.countProducts = 0;
             state.totalCost = 0;
             state.discount = 0;
+        },
+        addProductsToLocalStorage: (state, action) => {
+            state.allProducts = action.payload;
+
+            calcCoutProduct(state);
+            calcTotalCost(state);
+            calcDiscount(state);
         }
     }
 })
 
-export const { addProductToCart, changeCountProduct, removeProduct, clearAllInCartSlice } = cartSlice.actions;
+export const { addProductToCart, changeCountProduct, removeProduct, clearAllInCartSlice, addProductsToLocalStorage } = cartSlice.actions;
 
 export default cartSlice.reducer;

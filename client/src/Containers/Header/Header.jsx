@@ -23,10 +23,7 @@ const Header = () => {
                             </Link>
                         </li>
                         <li>
-                            <Link to="/history">History</Link>
-                        </li>
-                        <li>
-                            <Link to="/coupons">Coupons</Link>
+                            <Link to="/orders">History of orders</Link>
                         </li>
                     </ul>
                 </nav>

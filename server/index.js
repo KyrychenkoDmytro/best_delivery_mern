@@ -50,6 +50,26 @@ app.post('/orders', async (req, res) => {
     }
 })
 
+app.get('/orders', async (req, res) => {
+  try {
+      const orders = await OrderModel.find();
+
+      if (!orders) {
+          return res.status(404).json({
+              message: 'Error! Orders not found.'
+          })
+      }
+
+      res.json(orders);
+
+  } catch (err) {
+      console.log(err);
+      res.status(500).json({
+          message: 'Connection error.'
+      })
+  }
+})
+
 app.listen(8181, (err) => {
     if (err) {
         return console.log(err);

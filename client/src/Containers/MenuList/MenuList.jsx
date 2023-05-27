@@ -13,8 +13,6 @@ const MenuList = () => {
         dispatch(fetchProducts(productName));
     }, [dispatch, productName]);
 
-    console.log(items);
-
     return (
         <section className="MenuList">
             <div className="MenuList__container">

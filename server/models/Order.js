@@ -19,7 +19,7 @@ const OrderSchema = new mongoose.Schema({
     },
 
     products: [{
-        _id: {
+        id: {
             type: String,
             required: true,
         },
