@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+The best delivery is a food delivery app, where you can order burgers, pizza, or fresh food to suit every taste.
+The project consists of server and client parts.
+The server part was built on the following technologies: Node.js, Express, Mongoose.
+Database - MongoDB.
+For the client side, I used the following technology stack: React, Redux Toolkit, Axios, Sass.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+========================= To run the application you need: ====================
+Connect DB
 
-## Available Scripts
+1. Go to the MongoDB website and create a classter there.
+2. After create user. The default login is admin, and specify the password yourself.
+3. Back up your IP address by clicking on the button below.
+4. Press the button "Browse Collections" and press "Create Database".
+5. Database name "organic" and collection name - "products".
+6. Then go to the folder with the project and copy the contents in the file "products.json".
+7. Go to our collection of "products" and click on the "Insert Document" button and paste all the products there.
+8. Then press the "Connect" button and after press "Connect your application".
+9. Сopy the link and go to the server folder in our project.
+10. In the "server" folder and the "index.js" file on the 7th line we are looking for a "mongoose.connect" and replace the line with yours.
+11. She'll be something like this 'mongodb+srv://<login>:<password>@cluster0.estzqnq.mongodb.net/?retryWrites=true&w=majority'
+12. Change the login and password to the one you did during registration and add the name of our database "organic".
+13. The link should look like this 'mongodb+srv://admin:1q2w3e@cluster0.estzqnq.mongodb.net/organic?retryWrites=true&w=majority'
 
-In the project directory, you can run:
+Server
 
-### `npm start`
+1. Open a terminal in the server folder. You can also go there with the "cd server" command.
+2. Enter the command "npm i".
+3. After loading the data, enter the command "npm start".
+4. Should be displayed in the console "Server ok" and "DB ok"
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Client
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Open the terminal and do the same in the client folder.
+2. when you are in the client folder, enter the command "npm i".
+3. And after loading - "npm start"
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+After that the application should work!
