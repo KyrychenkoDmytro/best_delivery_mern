@@ -30,3 +30,5 @@ Open the terminal and do the same in the client folder.
 when you are in the client folder, enter the command "npm i".
 And after loading - "npm start"
 After that the application should work!
+
+You can see the project's work here - https://delivery-front-rho.vercel.app/
